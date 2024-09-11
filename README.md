@@ -10,9 +10,9 @@ This repository provides an example of a Remote Access Trojan (RAT) designed for
 3. **`Task.vbs`**: A VBScript that schedules tasks to run `File.vbs` at specified times.
 
 
-## Setup Instructions
+## 1. Simple Setup 
 
- ### 1 Configure the Batch File
+ ### Configure the Batch File
    Open File.bat and modify the FTP server details:
    - ftpServer: Your FTP server address.
    - ftpUser: Your FTP username.
