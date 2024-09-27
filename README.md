@@ -7,7 +7,7 @@ This repository provides an example of a Remote Access Trojan (RAT) designed for
 
 1. **`File.bat`**: A batch file that captures screenshots and uploads them to an FTP server.
 2. **`File.vbs`**: A VBScript that runs the batch file silently.
-3. **`Task.vbs`**: A VBScript that schedules tasks to run `File.vbs` at specified times.
+3. **`Task.vbs`**: A VBScript that schedules tasks using the task scheduler to run `File.vbs` at specified times.
 
 
 ## 1. Simple Setup 
