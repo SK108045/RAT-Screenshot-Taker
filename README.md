@@ -1,7 +1,7 @@
 # RAT-Screenshot-Taker
 Remote Access Trojan (RAT)
 
-This repository provides an example of a Remote Access Trojan (RAT) designed for educational purposes. The included scripts showcase how a RAT might capture screenshots from a user's screen and upload them to a remote server. This is intended solely for learning and understanding cybersecurity concepts.
+This repository provides a Remote Access Trojan (RAT) designed for educational purposes. The included scripts showcase how a RAT captures screenshots from a user's screen and uploads them to a remote server. This is intended solely for learning and understanding cybersecurity concepts.
 
 ## Files
 
