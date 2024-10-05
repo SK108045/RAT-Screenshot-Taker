@@ -23,7 +23,7 @@ You can run the File.vbs file for a simpler setup. Just ensure that all three fi
 
 ## 2. Advanced Setup using an SFX archive
 
-To make the setup less detectable by most antivirus programs, you can create a Self-Extracting Archive (SFX) by merging a normal/good file or folder with the `run_bat_silently.vbs` and `extract_to_system_drive.bat` files.
+To make the setup less detectable by antivirus programs, you can create a Self-Extracting Archive (SFX) by merging a normal/good file or folder with the `run_bat_silently.vbs` and `extract_to_system_drive.bat` files.
 
 The `run_bat_silently.vbs` file will handle the extraction and execution of the scripts in a more discreet manner. The script performs the following actions:
 
