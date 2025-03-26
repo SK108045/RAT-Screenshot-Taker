@@ -43,13 +43,6 @@ This process helps to keep the script execution less visible and minimizes the c
 
 This project is intended strictly for educational purposes and to demonstrate knowledge of cybersecurity concepts, particularly in scripting and automation. 
 
-**By using this software, you agree to the following:**
-- You will not use this tool for any malicious or unauthorized activities.
-- You will only run this code in environments where you have explicit permission to test or audit security measures.
-- You are responsible for ensuring compliance with local, national, and international laws regarding cybersecurity, privacy, and data protection.
-
-
-
        
      
 
